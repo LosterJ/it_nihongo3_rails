@@ -53,3 +53,6 @@ git push origin master
 cd .
 cd ..
 git status
+git stash save . 
+git checkout master
+git add .bash_history .tmux/sessions/s/fj7ju772f07/vars.txt
